@@ -6,6 +6,7 @@ metadata:
   description: Handles payment and cart operations.
   annotations:
     backstage.io/techdocs-ref: dir:./docs # Assuming docs are in a 'docs' sub-directory
+    gocd.org/pipelines: backstage,backstage-pr,backstage-builder
 spec:
   type: service
   owner: group:default/payments # Assigning to a specific team/group
