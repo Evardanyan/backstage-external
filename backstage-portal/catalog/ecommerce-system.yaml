@@ -5,5 +5,5 @@ metadata:
   title: Checkout System
   description: Manages checkout workflows
 spec:
-  owner: user:guest
+  owner: devops
   domain: ecommerce
