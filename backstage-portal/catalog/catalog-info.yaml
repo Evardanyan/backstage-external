@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: platform-entities
+  description: Domain and system entities stored in GitHub
+spec:
+  targets:
+    - https://raw.githubusercontent.com/Evardanyan/backstage-external/blob/main/backstage-portal/catalog/domain.yaml
+    - https://raw.githubusercontent.com/Evardanyan/backstage-external/blob/main/backstage-portal/catalog/system.yaml
+    - https://raw.githubusercontent.com/Evardanyan/backstage-external/blob/main/backstage-portal/catalog/components/checkout.yaml
