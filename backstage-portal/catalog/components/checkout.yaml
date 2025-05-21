@@ -3,10 +3,11 @@ kind: Component
 metadata:
   name: checkout-service
   title: Checkout Service
-  description: Handles payment and cart
+  description: Handles payment and cart operations.
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:./docs # Assuming docs are in a 'docs' sub-directory
 spec:
   type: service
-  owner: user:guest
-  system: checkout-system
+  owner: group:default/payments # Assigning to a specific team/group
+  system: checkout-system # Ensure 'checkout-system' exists as a Backstage System entity
+  lifecycle: production
