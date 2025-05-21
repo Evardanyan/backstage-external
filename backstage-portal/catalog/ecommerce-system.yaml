@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: checkout-system
+  title: Checkout System
+  description: Manages checkout workflows
+spec:
+  owner: user:guest
+  domain: ecommerce
